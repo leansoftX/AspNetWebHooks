@@ -63,7 +63,7 @@ namespace Microsoft.AspNet.WebHooks.Payloads
         /// Gets the value of field <c>System.CreatedBy</c>.
         /// </summary>
         [JsonProperty("System.CreatedBy")]
-        public string SystemCreatedBy { get; set; }
+        public ResourceUser SystemCreatedBy { get; set; }
 
         /// <summary>
         /// Gets the value of field <c>System.ChangedDate</c>.
@@ -75,7 +75,7 @@ namespace Microsoft.AspNet.WebHooks.Payloads
         /// Gets the value of field <c>System.ChangedBy</c>.
         /// </summary>
         [JsonProperty("System.ChangedBy")]
-        public string SystemChangedBy { get; set; }
+        public ResourceUser SystemChangedBy { get; set; }
 
         /// <summary>
         /// Gets the value of field <c>System.Title</c>.
